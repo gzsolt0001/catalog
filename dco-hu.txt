@@ -1,0 +1,36 @@
+Fejlesztői eredetiségigazolás
+1.1-es verzió
+
+Copyright (C) 2004, 2006 The Linux Foundation és közreműködői.
+
+Bárki másolhatja és terjesztheti ezen
+licencdokumentum szó szerinti másolatát, de annak módosítása tilos.
+
+
+Fejlesztői eredetiségigazolás 1.1
+
+Azzal, hogy hozzájárulok ehhez a projekthez, igazolom, hogy:
+
+(a) A hozzájárulást teljes egészében vagy részben én hoztam létre, és
+    jogom van azt a fájlban megjelölt nyílt forráskódú licenc
+    alatt benyújtani; vagy
+
+(b) A hozzájárulás olyan korábbi munkán alapul, amely – legjobb
+    tudomásom szerint – megfelelő nyílt forráskódú
+    licenc hatálya alá tartozik, és az adott licenc alapján jogom van azt
+    munkát módosításokkal, függetlenül attól, hogy azt teljes egészében vagy részben
+    én hoztam-e létre, ugyanazon nyílt forráskódú licenc alapján (kivéve, ha
+    más licenc alapján is benyújthatom), a fájlban
+    megjelölt módon; vagy
+
+(c) A hozzájárulást közvetlenül nekem nyújtotta át egy másik
+    személy, aki igazolta az (a), (b) vagy (c) pontot, és én nem módosítottam
+    azt.
+
+(d) Tudomásul veszem és elfogadom, hogy ez a projekt és a hozzájárulás
+    nyilvános, és hogy a hozzájárulásról szóló nyilvántartás (beleértve az összes
+    vele együtt benyújtott személyes adatot, beleértve az aláírásomat is)
+    határozatlan ideig megmarad, és újraelosztható a
+    projekt vagy az érintett nyílt forráskódú licenc(ek) rendelkezéseinek megfelelően.
+
+Translated with DeepL.com (free version)

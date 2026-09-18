@@ -1,0 +1,97 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://nav.gov.hu/schemas/artifact-catalog.schema.json",
+    "title": "ArtifactCatalog",
+    "type": "object",
+    "required": ["baseInformation", "formsInformation"],
+    "properties": {
+        "baseInformation": {
+            "type": "object",
+            "required": ["catalogSchemaVersion", "generatedAt"],
+            "properties": {
+                "catalogSchemaVersion": {
+                    "type": "string",
+                    "description": "A séma verziója",
+                    "minLength": 1,
+                    "maxLength": 30,
+                    "pattern": "^[0-9]+(\\.[0-9]+)*$"
+                },
+                "generatedAt": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "A katalógus generálásának időpontja ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00)"
+                }
+            }
+        },
+        "formsInformation": {
+            "type": "array",
+            "description": "A katalógusban nyilvántartott űrlaptípusok listája",
+            "items": {
+                "type": "object",
+                "required": ["formId", "formName", "versions"],
+                "properties": {
+                    "formId": {
+                        "type": "string",
+                        "minLength": 2,
+                        "maxLength": 50,
+                        "pattern": "^[A-Z0-9][A-Z0-9_-]*$",
+                        "description": "Az űrlap technikai azonosítója"
+                    },
+                    "formName": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 350,
+                        "description": "Az űrlap megnevezése"
+                    },
+                    "versions": {
+                        "type": "array",
+                        "description": "Az adott űrlaptípushoz tartozó űrlapverziók listája",
+                        "items": {
+                            "type": "object",
+                            "required": ["formVersion", "disabled"],
+                            "properties": {
+                                "formVersion": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 30,
+                                    "pattern": "^[0-9]+(\\.[0-9]+)*$",
+                                    "description": "Űrlapverzió azonosító"
+                                },
+                                "validFrom": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "type": "string",
+                                            "maxLength": 0
+                                        }
+                                    ],
+                                    "description": "Az űrlapverzió érvényességének kezdete ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00). Az időhatár inkluzív."
+                                },
+                                "validTo": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "type": "string",
+                                            "maxLength": 0
+                                        }
+                                    ],
+                                    "description": "Az űrlapverzió érvényességének vége ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00). Az időhatár exkluzív."
+                                },
+                                "disabled": {
+                                    "type": "boolean",
+                                    "description": "Tiltási jelző. true érték esetén az adott űrlapverzió nem tekinthető beadhatónak."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:ac="https://nav.gov.hu/schema/artifact-catalog/v1"
+           targetNamespace="https://nav.gov.hu/schema/artifact-catalog/v1"
+           xmlns="https://nav.gov.hu/schema/artifact-catalog/v1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+
+    <xs:simpleType name="formIdType">
+        <xs:annotation>
+            <xs:documentation>Az űrlap technikai azonosítója</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+            <xs:maxLength value="50"/>
+            <xs:pattern value="[A-Z0-9][A-Z0-9_\-]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="formNameType">
+        <xs:annotation>
+            <xs:documentation>Az űrlap megnevezése</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="350"/>
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="versionStringType">
+        <xs:annotation>
+            <xs:documentation>Űrlapverzió azonosítója</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="30"/>
+            <xs:pattern value="[0-9]+(\.[0-9]+)*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="dateTimeOrEmptyType">
+        <xs:annotation>
+            <xs:documentation>ISO 8601 dateTime érték vagy üres érték. Üres érték esetén az adott időhatár nincs megadva.</xs:documentation>
+        </xs:annotation>
+        <xs:union memberTypes="xs:dateTime">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:length value="0"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:union>
+    </xs:simpleType>
+
+    <xs:element name="artifactCatalog" type="ac:artifactCatalogType">
+        <xs:annotation>
+            <xs:documentation>A katalógus gyökéreleme</xs:documentation>
+        </xs:annotation>
+        <xs:unique name="uniqueFormId">
+            <xs:selector xpath="ac:formsInformation/ac:form"/>
+            <xs:field xpath="ac:formId"/>
+        </xs:unique>
+    </xs:element>
+
+    <xs:complexType name="artifactCatalogType">
+        <xs:sequence>
+            <xs:element name="baseInformation" type="ac:baseInformationType">
+                <xs:annotation>
+                    <xs:documentation>A katalógus fejlécadatai</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="formsInformation" type="ac:formsInformationType">
+                <xs:annotation>
+                    <xs:documentation>A katalógusban nyilvántartott űrlaptípusok listája</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="baseInformationType">
+        <xs:sequence>
+            <xs:element name="catalogSchemaVersion" type="ac:versionStringType">
+                <xs:annotation>
+                    <xs:documentation>A séma verziója</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="generatedAt" type="xs:dateTime">
+                <xs:annotation>
+                    <xs:documentation>A katalógus generálásának időpontja ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00)</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="formsInformationType">
+        <xs:sequence>
+            <xs:element name="form" type="ac:formType" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Egy űrlap adatai</xs:documentation>
+                </xs:annotation>
+                <xs:unique name="uniqueFormVersionPerForm">
+                    <xs:selector xpath="ac:versions/ac:version"/>
+                    <xs:field xpath="ac:formVersion"/>
+                </xs:unique>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="formType">
+        <xs:sequence>
+            <xs:element name="formId" type="ac:formIdType">
+                <xs:annotation>
+                    <xs:documentation>Az űrlap technikai azonosítója</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="formName" type="ac:formNameType">
+                <xs:annotation>
+                    <xs:documentation>Az űrlap megnevezése</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="versions" type="ac:versionsType">
+                <xs:annotation>
+                    <xs:documentation>Az adott űrlaptípushoz tartozó űrlapverziók listája</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="versionsType">
+        <xs:sequence>
+            <xs:element name="version" type="ac:versionType" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Egy adott űrlaptípus verzió adatai</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="versionType">
+        <xs:sequence>
+            <xs:element name="formVersion" type="ac:versionStringType">
+                <xs:annotation>
+                    <xs:documentation>Űrlapverzió azonosító</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="validFrom" type="ac:dateTimeOrEmptyType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Az űrlapverzió érvényességének kezdete ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00). Az időhatár inkluzív.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="validTo" type="ac:dateTimeOrEmptyType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Az űrlapverzió érvényességének vége ISO 8601 formátumban, Europe/Budapest időzóna szerinti dinamikus offsettel (+01:00/+02:00). Az időhatár exkluzív.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="disabled" type="xs:boolean">
+                <xs:annotation>
+                    <xs:documentation>Tiltási jelző. true érték esetén az adott űrlapverzió nem tekinthető beadhatónak.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

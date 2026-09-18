@@ -1,0 +1,1227 @@
+{
+  "baseInformation" : {
+    "catalogSchemaVersion" : "1.0",
+    "generatedAt" : "2026-09-18T13:11:00+02:00"
+  },
+  "formsInformation" : [ {
+    "formId" : "24GLBADO",
+    "formName" : "Bevallás a 2024. évi globális minimumadó-szintet biztosító kiegészítő adóról és az elismert belföldi",
+    "versions" : [ {
+      "formVersion" : "6.0",
+      "validFrom" : "2025-10-02T00:00:00+02:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    }, {
+      "formVersion" : "8.0",
+      "validFrom" : "2025-10-02T00:00:00+02:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2541",
+    "formName" : "Bevallás a társasházak részére a 2025. évi személyi jövedelemadóról",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-12-05T00:00:00+01:00",
+      "validTo" : "2026-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2601",
+    "formName" : "Bevallás az egyes adókötelezettségekről az államháztartással szemben",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-09-23T00:00:00+02:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2608INT",
+    "formName" : "Havi bevallás a 2019. évi CXXII. Törvény 87. § szerint kötelezettek részére a szociális hozzájárulási adóról",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2026-06-24T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2611",
+    "formName" : "Bevallás az államháztartással szembeni egyes juttatások igényléséről",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-11-20T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26110",
+    "formName" : "Igénylőlap az államháztartással szembeni gyakorított, illetve egyszeri támogatási előleg igényléséhez",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-11-17T00:00:00+01:00",
+      "validTo" : "2027-01-20T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2620",
+    "formName" : "Bevallás a biztosítási adóról, a biztosítási pótadóelőlegről, a biztosítási pótadó-elszámolásról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-11-18T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26251",
+    "formName" : "Bevallás a társasági adóelőlegről az átalakulással létrejött adóalanyok részére",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2024-10-18T00:00:00+02:00",
+      "validTo" : "2028-06-30T00:00:00+02:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2643TAO",
+    "formName" : "2643TAO",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    }, {
+      "formVersion" : "1.1",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "2649",
+    "formName" : "Bevallás a 2025. évben kötelezetté váló adózók innovációs járulékelőlegéről",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-20T00:00:00+01:00",
+      "validTo" : "2028-07-20T00:00:00+02:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2650",
+    "formName" : "Bevallás a környezetterhelési díjelőlegről, illetve az éves díjkötelezettségről",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-26T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2651",
+    "formName" : "Bevallás a biztonságos és gazdaságos gyógyszer- és gyógyászatisegédeszköz-ellátás, valamint a gyógyszerforgalmazás",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-14T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2658",
+    "formName" : "Bevallás a kiegészítő tevékenységet folytatónak nem minősülő egyéni vállalkozó szociális hozzájárulási adó és járulék kö",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-12-05T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2678",
+    "formName" : "Bevallás játékadóról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2024-11-24T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2691",
+    "formName" : "Bevallás a távközlési szolgáltatást nyújtók távközlési adójáról",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-09-25T00:00:00+02:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "2693",
+    "formName" : "2693",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "26A215",
+    "formName" : "Negyedéves/Éves bevallás a szociálpolitikai menetdíj-támogatás személyszállítási tevékenységek szerinti adatairól",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-17T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26A60",
+    "formName" : "26A60",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "26ENKADO",
+    "formName" : "Bevallás az energiaellátók különadó kötelezettségéről",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2026-02-19T00:00:00+01:00",
+      "validTo" : "2031-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26HIPAK",
+    "formName" : "Bevallás a helyi iparűzési adóról állandó jellegű iparűzési tevékenység esetén",
+    "versions" : [ {
+      "formVersion" : "5.0",
+      "validFrom" : "2025-12-01T00:00:00+01:00",
+      "validTo" : "2033-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26KATA",
+    "formName" : "Nyilatkozat és bevallás kisadózók részére a 2025. évre",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-24T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26KISKER",
+    "formName" : "Bevallás a kiskereskedelmi adóról és adóelőlegről",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-12-20T00:00:00+01:00",
+      "validTo" : "2033-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26KIVA",
+    "formName" : "Bevallás a kisvállalati adóról és egyéb kötelezettségekről (társasági adó, innovációs járulék, energiaellátók jövedelema",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-24T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26KTA",
+    "formName" : "Bevallás a termékdíjátalány-fizetésre jogosult csekély mennyiségű kibocsátó kötelezettek részére 2026. évre",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-26T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26KTBEV",
+    "formName" : "Környezetvédelmi termékdíj és a gépjármű-termékdíjátalány 2026. évi bevallása",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-26T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26NETA",
+    "formName" : "Bevallás a népegészségügyi termékadóról 2026. évre",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-26T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26P90",
+    "formName" : "Bevallás a pénzügyi szervezetek, valamint a forgalmazók és a befektetési alapok különadójáról",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-25T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26P91",
+    "formName" : "Bevallás a hitelintézetek és a pénzügyi vállalkozások különadójáról",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-24T00:00:00+01:00",
+      "validTo" : "2031-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26RENDNY",
+    "formName" : "Rendelkezés a 2026. évre vonatkozóan a társasági adóelőleg kedvezményezett célra történő felajánlásáról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-11-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26TFEJLH",
+    "formName" : "Bevallás a turizmusfejlesztési hozzájárulásról",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-01-01T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26TKORNY",
+    "formName" : "Bejelentő és változásbejelentő a 2026. évi környezetvédelmi termékdíj kötelezettségről",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-12T00:00:00+01:00",
+      "validTo" : "2032-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "26TRAKT",
+    "formName" : "Kérelem a termékdíj raktár üzemeltetésének engedélyezése iránt",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-12-05T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "40",
+    "formName" : "Bejelentés készpénzfizetésről",
+    "versions" : [ {
+      "formVersion" : "9.0",
+      "validFrom" : "2022-04-27T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "53INT",
+    "formName" : "Külföldi illetőségű előadóművészek, külföldi stábtagok személyi jövedelemadó és szociális hozzájárulási adó bevallása",
+    "versions" : [ {
+      "formVersion" : "12.0",
+      "validFrom" : "2013-12-31T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "AATKOD",
+    "formName" : "Adatszolgáltatás a tartós adathordozó végleges hozzáférhetetlenné tételéhez szükséges adattörlő kód fogyasztók részére",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2022-11-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "ATVUT17",
+    "formName" : "Átvezetési és kiutalási kérelem az adószámlán mutatkozó túlfizetéshez",
+    "versions" : [ {
+      "formVersion" : "24.0",
+      "validFrom" : "2021-11-24T00:00:00+01:00",
+      "validTo" : "2028-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "BEV_J01",
+    "formName" : "Bevallás a dohánygyártmányok után fizetendő, illetve visszaigényelhető jövedéki adó és általános forgalmi adó összegéről",
+    "versions" : [ {
+      "formVersion" : "20.10",
+      "validFrom" : "2011-10-17T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "BEV_J02",
+    "formName" : "Bevallás az ásványolaj, az alkoholtermék, a sör, a bor, a pezsgő és a köztes alkohol termék után fizetendő, illetve viss",
+    "versions" : [ {
+      "formVersion" : "42.19",
+      "validFrom" : "2011-10-17T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "ELMDIJ",
+    "formName" : "Bevallás élelmiszerlánc felügyeleti díjról",
+    "versions" : [ {
+      "formVersion" : "7.0",
+      "validFrom" : "2025-01-08T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "ELOLEGMOD",
+    "formName" : "KÉRELEM az adóelőleg mérséklés előterjesztéséhez",
+    "versions" : [ {
+      "formVersion" : "12.0",
+      "validFrom" : "2018-05-16T00:00:00+02:00",
+      "validTo" : "2025-05-17T00:00:00+02:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "JEGYZOI",
+    "formName" : "Bejelentő lap a köztartozásmentes adózói adatbázisból törölt személyekről történő adatszolgáltatáshoz",
+    "versions" : [ {
+      "formVersion" : "5.0",
+      "validFrom" : "2015-12-31T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K100",
+    "formName" : "Az ellátást folyósító szerv adatszolgáltatása a tartósan álláskereső, a gyermekgondozási díjban, gyermekgondozási segély",
+    "versions" : [ {
+      "formVersion" : "13.0",
+      "validFrom" : "2013-02-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K108",
+    "formName" : "Az MRP (Munkavállalói Résztulajdonosi Program) szervezet adatszolgáltatása a tagi részesedés bevonása következtében átad",
+    "versions" : [ {
+      "formVersion" : "5.0",
+      "validFrom" : "2025-08-18T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K111",
+    "formName" : "Munkáltató adatszolgáltatása a védett korban elbocsátott köztisztviselőkről",
+    "versions" : [ {
+      "formVersion" : "4.0",
+      "validFrom" : "2018-12-07T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K36",
+    "formName" : "K36 Az MRP (Munkavállalói Résztulajdonosi Program) szervezet adatszolgáltatása az általa",
+    "versions" : [ {
+      "formVersion" : "4.0",
+      "validFrom" : "2025-06-06T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K51",
+    "formName" : "K51 Az igazolást kiállító szerv adatszolgáltatása a súlyosan fogyatékos magánszemély részére",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-06-04T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K56",
+    "formName" : "Adatszolgáltatás a költségvetési támogatás igénybevételéhez felhasználható igazolás kiadásáról (az igazolás kiállításána",
+    "versions" : [ {
+      "formVersion" : "7.0",
+      "validFrom" : "2012-01-17T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K59",
+    "formName" : "K59 Az önkéntes kölcsönös biztosító pénztár adatszolgáltatása",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2026-04-15T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K64",
+    "formName" : "K64 Az állami foglalkoztatási szerv adatszolgáltatása az álláskeresési ellátás folyósításának",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2026-02-10T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K70",
+    "formName" : "A letétkezelő (a program szervező) adatszolgáltatása és bejelentése az elismert munkavállalói értékpapír-juttatási progr",
+    "versions" : [ {
+      "formVersion" : "9.0",
+      "validFrom" : "2012-01-17T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K71",
+    "formName" : "K71 A társas vállalkozás adatszolgáltatása az adóévben jegyzett tőkéjének felemelését",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-06-11T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K72",
+    "formName" : "K72",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "K73",
+    "formName" : "K73 A kifizető adatszolgáltatása a magánszemélyek részére az adóévben kedvezményezett",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-09-01T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K79",
+    "formName" : "K79 A kifizető adatszolgáltatása az SZJA tv. 7. számú melléklete szerinti külföldi személy",
+    "versions" : [ {
+      "formVersion" : "5.0",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K84",
+    "formName" : "K84 A nyugdíj-előtakarékossági számla vezetőjének adatszolgáltatása",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2026-02-26T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K86",
+    "formName" : "K86 A kifizetőnek minősülő befektetési szolgáltató adatszolgáltatása a magánszemély",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2026-05-11T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K90",
+    "formName" : "K90 A befektetési szolgáltató adatszolgáltatása értékpapír átruházásáról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2026-05-14T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K91",
+    "formName" : "K91 A kifizető adatszolgáltatása a magánszemély által átvállalt egyszerűsített közteherviselési kötelezettséggel",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-08-18T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K950",
+    "formName" : "K950 A kifizető adatszolgáltatása a magánszemély kérelmére kiadott - kamatjövedelemmel kapcsolatos - igazolásról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2026-06-24T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "K97",
+    "formName" : "Adatszolgáltatás a tartós befektetésből származó jövedelemről",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2023-01-01T00:00:00+01:00",
+      "validTo" : "2029-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KEMEL",
+    "formName" : "Bevallás a kőolajtermék-előállító, a megújuló energiaforrásból energiát termelők és a kiegyenlítő szabályozási kapacitás",
+    "versions" : [ {
+      "formVersion" : "15.0",
+      "validFrom" : "2024-06-17T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KLAKTAM",
+    "formName" : "KLAKTAM A munkáltató adatszolgáltatása a lakhatási támogatás juttatása esetén a lakhatási támogatással",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-11-26T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KOMA",
+    "formName" : "KOMA",
+    "versions" : [ {
+      "formVersion" : "14.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "KSZERZ",
+    "formName" : "KSZERZ Adatszolgáltatás az Szja tv. 65/C. § (9) bekezdése szerinti, a bizalmi vagyonkezelési jogviszony",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KTRAKT",
+    "formName" : "Adatszolgáltatás a termékdíj raktárba történő be- és kiszállításról, továbbá a raktárkészletről",
+    "versions" : [ {
+      "formVersion" : "15.0",
+      "validFrom" : "2014-07-15T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KVILL",
+    "formName" : "KVILL A kifizető adatszolgáltatása a magánszemély villamosenergia-értékesítéséből származó adóévi bevételeiről",
+    "versions" : [ {
+      "formVersion" : "4.0",
+      "validFrom" : "2026-02-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "KVKPELL",
+    "formName" : "Adatszolgáltatás az általános forgalmi adóról szóló 2007. évi CXXVII. törvény 129. §",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2025-02-19T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F01",
+    "formName" : "Fémkereskedelmi engedély kérelem",
+    "versions" : [ {
+      "formVersion" : "1.24",
+      "validFrom" : "2013-11-29T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F02",
+    "formName" : "NAV_F02 Napi bejelentés fémkereskedelmi/ koncesszori fémkereskedelmi tevékenységről",
+    "versions" : [ {
+      "formVersion" : "1.32",
+      "validFrom" : "2013-12-25T00:00:00+01:00",
+      "validTo" : "2099-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F03",
+    "formName" : "Fémkereskedelmi/ koncesszori fémkereskedelmi készletnyilvántartás havi zárás",
+    "versions" : [ {
+      "formVersion" : "1.13",
+      "validFrom" : "2013-08-14T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F04",
+    "formName" : "\"Érzékeny\" FAJ kódos bejelentés",
+    "versions" : [ {
+      "formVersion" : "2.7",
+      "validFrom" : "2013-08-14T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F05",
+    "formName" : "Hasznosító eseti adatszolgáltatása",
+    "versions" : [ {
+      "formVersion" : "1.8",
+      "validFrom" : "2013-11-29T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F06",
+    "formName" : "Egyéb fémkereskedelmi szakterületi bejelentések, kérelmek",
+    "versions" : [ {
+      "formVersion" : "1.11",
+      "validFrom" : "2020-10-13T00:00:00+02:00",
+      "validTo" : "2099-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F07",
+    "formName" : "Jogorvoslati kérelem fémkereskedelmi ügyben",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2018-01-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F08",
+    "formName" : "Fémkereskedelmi engedélyköteles anyag vételárával kapcsolatos írásbeli nyilatkozattétel",
+    "versions" : [ {
+      "formVersion" : "1.11",
+      "validFrom" : "2018-01-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F09",
+    "formName" : "Közszolgáltatást nyújtó gazdálkodó szervezetek, illetve hulladékgazdálkodási közszolgáltatást",
+    "versions" : [ {
+      "formVersion" : "1.16",
+      "validFrom" : "2019-03-08T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F10",
+    "formName" : "Bejelentés telephely nélküli fémkereskedő/ telephely nélküli koncesszori",
+    "versions" : [ {
+      "formVersion" : "1.12",
+      "validFrom" : "2025-05-27T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F11",
+    "formName" : "Sorszámtartomány iránti kérelem",
+    "versions" : [ {
+      "formVersion" : "1.9",
+      "validFrom" : "2024-07-02T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F12",
+    "formName" : "Sorszámtartomány elszámolása",
+    "versions" : [ {
+      "formVersion" : "1.5",
+      "validFrom" : "2021-05-31T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_F13",
+    "formName" : "Fémkereskedelmi/koncesszori fémkereskedelmi tevékenység szüneteltetésének bejelentése",
+    "versions" : [ {
+      "formVersion" : "1.4",
+      "validFrom" : "2021-11-24T00:00:00+01:00",
+      "validTo" : "2028-12-23T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J07",
+    "formName" : "Bejelentés EAN (GTIN) szám törzsadat változásról, valamint VP termékazonosító-szám igénylésről és változásról",
+    "versions" : [ {
+      "formVersion" : "2.19",
+      "validFrom" : "2015-04-13T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J08",
+    "formName" : "Bejelentés adójegy és zárjegy felhasználásról",
+    "versions" : [ {
+      "formVersion" : "1.20",
+      "validFrom" : "2015-04-13T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J09",
+    "formName" : "Adatszolgáltatás az adóraktárak és jövedéki engedélyes kereskedők vevőnyilvántartásáról",
+    "versions" : [ {
+      "formVersion" : "1.28",
+      "validFrom" : "2013-08-14T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J10",
+    "formName" : "Adójegy- és Zárjegy megrendelés",
+    "versions" : [ {
+      "formVersion" : "2.19",
+      "validFrom" : "2014-12-18T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J15",
+    "formName" : "Sorszámtartomány iránti kérelem",
+    "versions" : [ {
+      "formVersion" : "1.20",
+      "validFrom" : "2013-12-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J16",
+    "formName" : "Sorszámtartományok elszámolása",
+    "versions" : [ {
+      "formVersion" : "1.19",
+      "validFrom" : "2013-11-30T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J24",
+    "formName" : "Bejelentés a szárított dohány, fermentált dohány szállításáról",
+    "versions" : [ {
+      "formVersion" : "2.13",
+      "validFrom" : "2014-01-02T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J25",
+    "formName" : "A nem üveg desztillálóberendezésről adatszolgáltatás (birtoklás, beszerzés)",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2014-01-23T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J28",
+    "formName" : "Adóraktár adatszolgáltatása a termékkészlet változásokról",
+    "versions" : [ {
+      "formVersion" : "1.70",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J29",
+    "formName" : "Bejelentés jövedéki tevékenységről",
+    "versions" : [ {
+      "formVersion" : "3.4",
+      "validFrom" : "2022-06-13T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J31",
+    "formName" : "Kérelem a Jöt. szerinti tevékenységek engedélyezésére",
+    "versions" : [ {
+      "formVersion" : "2.66",
+      "validFrom" : "2017-03-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J32",
+    "formName" : "Bejelentés szállításról",
+    "versions" : [ {
+      "formVersion" : "1.29",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J33",
+    "formName" : "Jövedéki kiskereskedő és bérfőzető bejelentése",
+    "versions" : [ {
+      "formVersion" : "1.30",
+      "validFrom" : "2019-10-28T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J34",
+    "formName" : "Kérelem kezességvállalás engedélyhez",
+    "versions" : [ {
+      "formVersion" : "1.19",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J35",
+    "formName" : "Bejelentés a szabadforgalomban levált, sérült zárjegy pótlásának igényéről",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J36",
+    "formName" : "Adatszolgáltatás hivatalos zár készletéről és kiadott mennyiségéről",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J37",
+    "formName" : "Kérelem a Jöt. szerinti tevékenységek nyilvántartásba vételére",
+    "versions" : [ {
+      "formVersion" : "2.26",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J38",
+    "formName" : "Kérelem a jövedéki biztosíték befogadására/csökkentésére",
+    "versions" : [ {
+      "formVersion" : "2.30",
+      "validFrom" : "2017-03-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J39",
+    "formName" : "Szakmai vélemény (állásfoglalás) iránti kérelem jövedéki, illetve dohánytermék-kiskereskedelemme lkapcsolatos kérdésekbe",
+    "versions" : [ {
+      "formVersion" : "1.15",
+      "validFrom" : "2018-01-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J40",
+    "formName" : "Kérelem a Jöt. 18. § (12) bekezdése szerinti egy szállítmányra szóló jövedéki biztosíték teljesítésére",
+    "versions" : [ {
+      "formVersion" : "1.22",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J41",
+    "formName" : "Üzemanyagtöltő állomás adatszolgáltatása",
+    "versions" : [ {
+      "formVersion" : "3.6",
+      "validFrom" : "2017-03-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J42",
+    "formName" : "Egyéb engedély kérelem",
+    "versions" : [ {
+      "formVersion" : "1.42",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J43",
+    "formName" : "Felhasználói engedélyes elszámolása",
+    "versions" : [ {
+      "formVersion" : "2.11",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J44",
+    "formName" : "Jogorvoslati beadvány",
+    "versions" : [ {
+      "formVersion" : "1.15",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J46",
+    "formName" : "T/JOVEDEKUGY/KEREL",
+    "versions" : [ {
+      "formVersion" : "1.11",
+      "validFrom" : "2017-06-23T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_J49",
+    "formName" : "Bejelentés a magánfőzött párlat előállításáról",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2020-12-15T00:00:00+01:00",
+      "validTo" : "2027-12-31T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_OKE",
+    "formName" : "A kőolajtermék-előállító, kőolajtermék-kereskedő jelentése az orosz kőolajembargó betartásáról",
+    "versions" : [ {
+      "formVersion" : "1.9",
+      "validFrom" : "2023-01-19T00:00:00+01:00",
+      "validTo" : "2030-01-19T00:00:00+01:00",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NAV_PMT25",
+    "formName" : "PMT25 - Bejelentés a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról",
+    "versions" : [ {
+      "formVersion" : "0.23",
+      "validFrom" : "2025-06-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "0.24",
+      "validFrom" : "2025-06-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "0.25",
+      "validFrom" : "2025-06-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "0.28",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "NAV_PMT25MEG",
+    "formName" : "PMT25MEG - Adatszolgáltatás a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról",
+    "versions" : [ {
+      "formVersion" : "0.4",
+      "validFrom" : "2025-06-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "0.5",
+      "validFrom" : "2025-06-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NY",
+    "formName" : "Nyilatkozat adóbevallási kötelezettség",
+    "versions" : [ {
+      "formVersion" : "54.0",
+      "validFrom" : "2010-01-22T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "NYK",
+    "formName" : "Nyilatkozat külföldi illletőségű magánszemély személyijövedelemadó-bevallás alóli mentesítéséhez",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-10-22T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "ONELLB",
+    "formName" : "Az önellenőrzési szándék bejelentésére szolgáló ONELLB jelű nyomtatvány",
+    "versions" : [ {
+      "formVersion" : "18.0",
+      "validFrom" : "2021-10-27T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "SAAFA",
+    "formName" : "Bevallás a termékimport utáni általános forgalmi adó bevallására és megfizetésére",
+    "versions" : [ {
+      "formVersion" : "3.0",
+      "validFrom" : "2024-07-26T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "4.0",
+      "validFrom" : "2024-07-26T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "SORSZIG",
+    "formName" : "SORSZIG",
+    "versions" : [ {
+      "formVersion" : "9.0",
+      "validFrom" : "",
+      "validTo" : "",
+      "disabled" : true
+    } ]
+  }, {
+    "formId" : "SPORTBEJ",
+    "formName" : "Bejelentés a látvány-csapatsport támogatásáról",
+    "versions" : [ {
+      "formVersion" : "30.0",
+      "validFrom" : "2013-06-25T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1041",
+    "formName" : "Bejelentő és változásbejelentő lap a munkáltató vagy kifizető által foglalkoztatott biztosítottak adatairól",
+    "versions" : [ {
+      "formVersion" : "5.0",
+      "validFrom" : "2025-11-21T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1041INT",
+    "formName" : "Bejelentő és változásbejelentő lap a Magyarországon fiókteleppel, pénzügyi képviselővel nem rendelkező",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1042E",
+    "formName" : "Bejelentő és változásbejelentő az egyszerűsített foglalkoztatásra irányuló jogviszony adatairól",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-11T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1044D",
+    "formName" : "Iskolaszövetkezet atipikus foglalkoztatásának bejelentése",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-17T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1045NY",
+    "formName" : "Bejelentés és változásbejelentés közérdekű nyugdíjas szövetkezet biztosítottnak nem minősülő",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T1046K",
+    "formName" : "Bejelentés és változásbejelentés a kisgyermekkel otthon lévők szövetkezete biztosítottnak nem minősülő",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-11-25T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T113",
+    "formName" : "Kérelem a csoportos adóalanyiság választására és a képviselő személyében bekövetkezett változás bejelentésére",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-12-04T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "1.1",
+      "validFrom" : "2025-12-04T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "T118",
+    "formName" : "Adatlap és változásbejelentő lap a csoportos társasági adóalanyisággal kapcsolatos közös kérelem",
+    "versions" : [ {
+      "formVersion" : "1.0",
+      "validFrom" : "2025-12-04T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "TAONY",
+    "formName" : "Nyilatkozat a társasági adó bevallásról az Art. 31. § (5) bekezdése alapján",
+    "versions" : [ {
+      "formVersion" : "14.0",
+      "validFrom" : "2014-12-01T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "TMUNK",
+    "formName" : "Bejelentés és változásbejelentés a munkaerő-kölcsönzésre vonatkozó adatokról",
+    "versions" : [ {
+      "formVersion" : "2.0",
+      "validFrom" : "2025-12-04T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "UJEGYKE",
+    "formName" : "Egységes Képviseleti Adatlap BEJELENTÉS AZ ÁLLAMI ADÓHATÓSÁGI ÜGYEK KÉPVISELŐ ÚTJÁN TÖRTÉNŐ INTÉZÉSÉHEZ",
+    "versions" : [ {
+      "formVersion" : "13.0",
+      "validFrom" : "2021-08-20T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "VHJOV",
+    "formName" : "Elektronikus visszaigazolás jövedelem letiltásról",
+    "versions" : [ {
+      "formVersion" : "12.0",
+      "validFrom" : "2018-01-16T00:00:00+01:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "VPOP_KIT17",
+    "formName" : "VPOP_KIT17",
+    "versions" : [ {
+      "formVersion" : "1.10",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "1.9",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "VPOP_KIT17MEG",
+    "formName" : "VPOP_KIT17MEG",
+    "versions" : [ {
+      "formVersion" : "1.8",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    }, {
+      "formVersion" : "1.9",
+      "validFrom" : "2025-08-28T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  }, {
+    "formId" : "VPOP_KSZ17",
+    "formName" : "Kijelölt személyre vonatkozó tájékoztatás a pénzmosás és a terrorizmus finanszírozása",
+    "versions" : [ {
+      "formVersion" : "1.11",
+      "validFrom" : "2025-08-27T00:00:00+02:00",
+      "validTo" : "",
+      "disabled" : false
+    } ]
+  } ]
+}
