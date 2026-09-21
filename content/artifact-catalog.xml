@@ -2,7 +2,7 @@
 <artifactCatalog xmlns="https://nav.gov.hu/schema/artifact-catalog/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nav.gov.hu/schema/artifact-catalog/v1 artifact-catalog.xsd">
   <baseInformation>
     <catalogSchemaVersion>1.0</catalogSchemaVersion>
-    <generatedAt>2026-09-18T13:11:00+02:00</generatedAt>
+    <generatedAt>2026-09-21T14:54:00+02:00</generatedAt>
   </baseInformation>
   <formsInformation>
     <form>
@@ -1322,12 +1322,6 @@
           <validFrom>2025-06-20T00:00:00+02:00</validFrom>
           <validTo></validTo>
           <disabled>false</disabled>
-        </version>
-        <version>
-          <formVersion>0.28</formVersion>
-          <validFrom></validFrom>
-          <validTo></validTo>
-          <disabled>true</disabled>
         </version>
       </versions>
     </form>

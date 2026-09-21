@@ -1,7 +1,7 @@
 {
   "baseInformation" : {
     "catalogSchemaVersion" : "1.0",
-    "generatedAt" : "2026-09-18T13:11:00+02:00"
+    "generatedAt" : "2026-09-21T14:54:00+02:00"
   },
   "formsInformation" : [ {
     "formId" : "24GLBADO",
@@ -994,11 +994,6 @@
       "validFrom" : "2025-06-20T00:00:00+02:00",
       "validTo" : "",
       "disabled" : false
-    }, {
-      "formVersion" : "0.28",
-      "validFrom" : "",
-      "validTo" : "",
-      "disabled" : true
     } ]
   }, {
     "formId" : "NAV_PMT25MEG",
